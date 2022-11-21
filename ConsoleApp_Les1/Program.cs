@@ -2,7 +2,7 @@
 {
 	class Program
 	{
-		static void Main()
+		static int Main()
 		{
 			string path = "D:/asd1.txt";
 			string text = "Программа завершилась, пользователь написал правильный ответ."; 
@@ -29,7 +29,7 @@
 					output.Write(text);
 				}
 			}
-
+			return 1;
 		}
 	}
 }
